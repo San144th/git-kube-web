@@ -20,8 +20,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  ci_part_push_to_registry:
-    name: Push Docker image to Docker Hub
+  ci_part:
     runs-on: ubuntu-latest
     
     steps:
@@ -35,7 +34,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Extract metadata (tags, labels) for Docker
-        id: meta
+        id  : meta
         uses: docker/metadata-action@v4
         with:
           images: san144th/flask_app
@@ -53,7 +52,7 @@ jobs:
 
 #my_cd_part:
 #  runs-on: ubuntu-latest
-#  needs: [ci_part_push_to_registry]
+#  needs: [ci_part]
 
 #  steps:
 #  - name: executing remote ssh commands using password
