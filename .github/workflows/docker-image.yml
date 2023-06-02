@@ -45,7 +45,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ env.DEPLOY_PACKAGE_NAME }}
+          tags: user/app:latest
           labels: ${{ steps.meta.outputs.labels }}
 
 #------------------------------------------------------------------------------------
