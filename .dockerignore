@@ -16,6 +16,7 @@
 **/bin
 **/charts
 **/docker-compose*
+**/deploy-yaml*
 **/compose*
 **/Dockerfile*
 **/node_modules
