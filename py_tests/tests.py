@@ -1,6 +1,9 @@
 import unittest
-import webapp as tested_app
 import json
+
+import sys
+sys.path.append('/helloapp')
+import webapp as tested_app
 
 class FlaskAppTests(unittest.TestCase):
 
