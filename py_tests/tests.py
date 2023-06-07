@@ -2,7 +2,7 @@ import unittest
 import json
 
 import sys
-sys.path.append('/hello_app')
+sys.path.append('/home/runner/work/git-kube-web/git-kube-web/hello_app')
 import webapp as tested_app
 
 class FlaskAppTests(unittest.TestCase):
