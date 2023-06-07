@@ -13,11 +13,11 @@ env:
 #  EB_APPLICATION_NAME       : "MyFlask"
 #  EB_ENVIRONMENT_NAME       : "MyFlask-env"
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+#on:
+#  push:
+#    branches: [ "main" ]
+#  pull_request:
+#    branches: [ "main" ]
 
 jobs:
   ci_part:
