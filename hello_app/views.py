@@ -1,7 +1,7 @@
 from flask import Flask
 from flask import render_template
 from datetime import datetime
-from . import app
+from . import webapp
 
 @app.route("/")
 def home():
