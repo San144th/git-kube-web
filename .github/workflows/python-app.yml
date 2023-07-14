@@ -15,7 +15,7 @@ jobs:
       - uses: actions/checkout@master
       
       # Устанавливаем python нужной версии
-      - uses: actions/setup-python@v1
+      - uses: actions/setup-python@v4
         with:
           python-version: '3.11'
           architecture: 'x64'
