@@ -1,7 +1,7 @@
 import os
 import unittest
 
-from views import webapp
+from __init__ import app
 
 
 class BasicTests(unittest.TestCase):
