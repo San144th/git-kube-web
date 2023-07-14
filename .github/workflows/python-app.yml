@@ -32,3 +32,4 @@ jobs:
         
       - name: Tests report
         run: coverage report
+        
