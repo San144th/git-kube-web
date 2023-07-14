@@ -28,7 +28,7 @@ jobs:
         run: pip install pytest-cov coveralls
 
       - name: Run tests
-        run: coverage run hello_app/test2.py
+        run: coverage run hello_app/unittest.py
         
       - name: Tests report
         run: coverage report
